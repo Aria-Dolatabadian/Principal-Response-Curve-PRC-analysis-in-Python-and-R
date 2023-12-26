@@ -5,6 +5,7 @@ library(cowplot) # If not installed, install with install.packages("cowplot")
 # Read data from CSV
 df <- read.csv('prc_data.csv')
 
+
 # Perform Principal Response Curve (PRC) analysis
 # Standardize the data
 scaled_data <- scale(df %>%
